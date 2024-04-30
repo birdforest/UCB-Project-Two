@@ -1,6 +1,6 @@
 -- Campaign Table
 Create Table campaign (
-	cd_id INT NOT NULL,
+	cd_id INT PRIMARY KEY,
 	contact_id INT NOT NULL,
 	company_name VARCHAR(100) NOT NULL,
 	description VARCHAR(100) NOT NULL,
